@@ -270,7 +270,7 @@ header .bar .main-nav a:hover::after {
   width: 100%;
   background-color: var(--clr-bg);
   text-align: center;
-  padding: 2rem 0;
+  padding: 2rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
