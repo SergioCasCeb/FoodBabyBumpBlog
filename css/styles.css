@@ -576,7 +576,7 @@ header .bar .main-nav a:hover::after {
 .seccion-latest-post .container-lat-post .side-last-post .newsletter {
   background-color: var(--clr-bg);
   border-radius: .25em;
-  padding: 2rem 0;
+  padding: 2rem;
 }
 
 .seccion-latest-post .container-lat-post .side-last-post .newsletter h2 {
@@ -584,7 +584,7 @@ header .bar .main-nav a:hover::after {
 }
 
 .seccion-latest-post .container-lat-post .side-last-post .newsletter form input {
-  width: 85%;
+  width: 100%;
   margin: 0 auto;
   margin-bottom: 2rem;
   border: unset;
@@ -797,4 +797,3 @@ footer .copyright a {
   color: var(--clr-prim);
   margin: 0 1rem;
 }
-/*# sourceMappingURL=styles.css.map */
