@@ -202,7 +202,7 @@ header .bar .main-nav a:hover::after {
 .seccion-banner .container .btn-next,
 .seccion-banner .container .btn-prev {
   position: absolute;
-  top: 38.5%;
+  top: calc(50% - 5rem);
   cursor: pointer;
   height: 5rem;
   width: 5rem;
@@ -214,7 +214,7 @@ header .bar .main-nav a:hover::after {
 .seccion-banner .container #btn-next,
 .seccion-banner .container #btn-prev {
   position: absolute;
-  top: 40.5%;
+  top: calc(50% - 3.5rem);
   font-size: 2rem;
   z-index: 10;
   cursor: pointer;
@@ -316,14 +316,6 @@ header .bar .main-nav a:hover::after {
 }
 
 @media screen and (min-width: 1024px) {
-  .seccion-banner .container .btn-next,
-  .seccion-banner .container .btn-prev {
-    top: 45%;
-  }
-  .seccion-banner .container #btn-next,
-  .seccion-banner .container #btn-prev {
-    top: 48%;
-  }
   .seccion-banner .container .slider .banner-post {
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
