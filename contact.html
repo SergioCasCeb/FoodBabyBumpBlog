@@ -1,0 +1,167 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Montserrat:wght@300;400;700&family=Playfair+Display:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+
+
+    <title>Food Baby Bump</title>
+</head>
+
+<body>
+
+    <header>
+        <div class="social-media">
+            <ul class="nav justify-content-center">
+                <li class="nav-item"><a class="nav-link" href="#"><i class="fab fa-instagram"></i></a></li>
+                <li class="nav-item mx-4"><a class="nav-link" href="#"><i class="fab fa-facebook-square"></i></a></li>
+                <li class="nav-item"><a class="nav-link" href="#"><i class="fab fa-youtube"></i></a></li>
+            </ul>
+        </div>
+
+        <div class="header-content py-5">
+            <div class="container text-center pb-5">
+                <h1 class=" mt-5 mb-2 font-weight-bold">Food Baby Bump</h1>
+                <div id="typed-strings">
+                    <p>Tasty and Healthy</p>
+                    <p>Vegan and Vegetarian</p>
+                    <p>Blog posts and Recipes</p>
+                </div>
+                <span id="typed" class="logo"></span>
+            </div>
+        </div>
+
+        <nav class="navbar navbar-expand-sm justify-content-center main-nav ">
+            <ul class="navbar-nav py-2 ">
+                <li class="nav-item px-4 ">
+                    <a class="nav-link text-center" href="index.html">Home</a>
+                </li>
+                <li class="nav-item px-4">
+                    <a class="nav-link text-center" href="about.html">About Me</a>
+                </li>
+                <li class="nav-item px-4">
+                    <a class="nav-link text-center" href="recipes.html">Recipes</a>
+                </li>
+                <li class="nav-item px-4">
+                    <a class="nav-link text-center" href="blog.html">Blog</a>
+                </li>
+                <li class="nav-item px-4">
+                    <a class="nav-link text-center" href="contact.html">Contact</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <main class="my-5">
+        <div class="page-contact">
+            <div class="container">
+                <div class="jumbotron d-flex justify-content-center align-items-center">
+                    <h1 class="my-5 p-1">Contact</h1>
+                </div>
+
+                <div class="contact-form mt-5 py-5 px-5 text-center rounded-lg ml-auto mr-auto">
+
+                    <form action="#" class="mt-5">
+                        <div class="container-fields row">
+                            <div class="field form-group rounded-lg col-lg-6">
+                                <input type="text" id="fname" placeholder="First Name" name="first name" class="w-100 px-3">
+                            </div>
+
+                            <div class="field form-group rounded-lg col-lg-6">
+                                <input type="text" id="lname" placeholder="Last Name" name="last name" class="w-100 px-3">
+                            </div>
+                        </div>
+
+                        <div class="field form-group mb-4 rounded-lg">
+                            <input type="email" id="email" placeholder="E-mail" name="email" class="w-100 px-3">
+                        </div>
+
+                        <div class="field form-group mb-4 rounded-lg">
+                            <textarea id="message" placeholder="Message" name="message" class="w-100 px-3"></textarea>
+                        </div>
+
+                        <div class="field form-group rounded-lg btn-container text-right">
+                            <input type="submit" value="Send" class="btn btn-form btn-lg mb-5 d-lg-inline-block d-block mr-auto ml-auto">
+                        </div>
+
+                    </form>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="py-5">
+        <div class="container text-center">
+
+            <div class="logo-footer">
+                <h2>Food Baby Bump</h2>
+                <p class="logo">Tasty and Healthy</p>
+            </div>
+
+            <div class="copyright row d-flex align-items-center text-center">
+                <p class="col-lg-10 mt-4">Copyright &copy; food baby bump, all rights reserved. | <a href="about.html">About</a> | <a href="imprint.html">imprint</a> |<a href="contact.html">Contact</a> |</p>
+                <div class="log-in col-lg-2 mt-4" id="open-log-in">
+                    <a href="#section-log-in"><i class="fas fa-user-circle"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <div class="section-log-in position-absolute d-flex align-items-center" id="section-log-in">
+        <div class="container">
+            <div class="container-log-in w-75 mx-auto p-5 rounded-lg">
+                <h3 class="text-center">Welcome Back</h3>
+                <p class="text-center mt-4">Log-in to see your new entries</p>
+                <form action="entries.html" class="mt-5" name="loginForm" onsubmit="return validateForm()">
+
+                    <div class="field form-group rounded-lg">
+                        <input type="text" id="username" placeholder="Username" name="username" class="w-100 px-3" required>
+                    </div>
+
+                    <div class="field form-group my-4 rounded-lg">
+                        <input type="password" id="password" placeholder="Password" name="password" class="w-100 px-3" required>
+                    </div>
+
+                    <div class="field form-group rounded-lg">
+                        <input type="submit" value="Log In" class="btn btn-form w-100" id="log-in-btn">
+                    </div>
+
+                    <div class="field form-group rounded-lg">
+                        <input type="button" value="Close" class="btn btn-form w-100" id="close-log-in">
+                    </div>
+                </form>
+
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js " integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN " crossorigin="anonymous "></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js " integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF " crossorigin="anonymous "></script>
+    <!--Link for fontawesome icons-->
+    <script src="https://kit.fontawesome.com/d66d421276.js " crossorigin="anonymous "></script>
+
+    <!--CDN for typle.js-->
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>
