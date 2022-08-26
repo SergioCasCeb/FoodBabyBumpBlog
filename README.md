@@ -1,4 +1,5 @@
 # FoodBabyBumpBlog
-This website was made for education purposes, therefore its only a simply website made with just HTML5, CSS3 and vanilla JavaScript. 
-This is a vegan/vegetarian food blog, that includes blog posts, recipes, a contact section, a about me section and the possibility to sign up to a newsletter.
-It uses simple animations for hover effects and it has a carousel that was made with pure Javascri
+This website was made as a university project with THD, therefore it is a simply website that uses HTML5, CSS3, JS, jQuery, Bootstrap, js libraries and node js. to get information from users for a questionare and a newsletter. 
+
+This is a vegan/vegetarian food blog, that includes blog posts, recipes, a contact section, an about me section and the possibility to sign up to a newsletter.
+It uses simple animations for hover effects and it has a carousel made with Bootstrap.
